@@ -1,3 +1,57 @@
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+nav.navbar.navbar-default{
+	width: 100%;
+    height: 56px;
+    background: rgba(47,47,47,0.98);
+    z-index: 9996;
+}
+
+.lupa{
+	position: relative;
+	right: -20px;
+
+}
+.lupita{
+	position: relative;
+	right: -23px;
+	bottom: -32px;
+
+}
+.barra-negra{
+	width: 100%;
+    height: 56px;
+    background: #333;
+    background: rgba(47,47,47,0.98);
+    z-index: 9996;
+.barra{
+	background-color: white;
+	color:white;
+	border:none;
+}
+
+.hamburguesa{
+	padding-left: 10px;
+}
+
+.barra-dentro{
+	padding: 4px 15px 30px;
+}
+.logo{
+	color:white;
+}
+.nav>li>a {
+    display: block;
+    height: 56px;
+    padding: 0 10px;
+    line-height: 56px;
+    text-decoration: none;
+    color: #999;
+}
+
 /* Acá van tus estilos */
 *{	
 	font-family: 'Roboto', sans-serif;
@@ -160,6 +214,7 @@ nav.navbar.navbar-default{
 	font-weight: bold;
 }
 
+
 #gris{
 	background-color: #D0D1D1;
 }
@@ -168,3 +223,4 @@ nav.navbar.navbar-default{
 	background-color: #D0D1D1;
 	color: #A2A3A3;
 }
+
