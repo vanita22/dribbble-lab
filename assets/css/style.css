@@ -43,3 +43,14 @@
 	color: #A2A3A3;
 }
 
+#linea{
+	border-bottom: 1px solid grey;
+	border-top: 1px solid #EDEDED;
+}
+
+
+#skills{
+	color: #A2A3A3;
+	font-weight: bold;
+
+}
