@@ -54,3 +54,10 @@
 	font-weight: bold;
 
 }
+li{
+	list-style: none;
+}
+
+#red{
+	color: #A2A3A3;
+}
