@@ -9,8 +9,37 @@
 	margin-top: 3%;
 	margin-left: 3%;
 	margin-right: 3%;
+	border-radius: 3%;
 
 }
 .img-circle{
 	margin-top: 5%;
 }
+
+#portugal{
+	color: grey;
+}
+
+#name{
+	font-weight: bold;
+}
+
+#hire{
+	background-color: #2BD352;
+	color: white;
+	font-weight: bold;
+}
+/* no queda bien el color
+.fa-envelope-o{
+	background-color: white;
+	color:  #2BD352;
+}*/
+#gris{
+	background-color: #D0D1D1;
+}
+
+#gris2{
+	background-color: #D0D1D1;
+	color: #A2A3A3;
+}
+
