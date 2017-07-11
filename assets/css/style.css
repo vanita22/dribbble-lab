@@ -16,14 +16,12 @@ nav.navbar.navbar-default{
 .lupa{
 	position: relative;
 	right: -20px;
-
 }
 
 .lupita{
 	position: relative;
 	right: -23px;
 	bottom: -32px;
-
 }
 
 .barra-negra{
@@ -47,9 +45,11 @@ nav.navbar.navbar-default{
 .barra-dentro{
 	padding: 4px 15px 30px;
 }
+
 .logo{
 	color:white;
 }
+
 .nav>li>a {
     display: block;
     height: 56px;
@@ -58,6 +58,7 @@ nav.navbar.navbar-default{
     text-decoration: none;
     color: #999;
 }
+
 /*parte lateral y api*/
 
 #box{	
@@ -72,52 +73,26 @@ nav.navbar.navbar-default{
 	width: 100%;
 }
 
-#box-1{
-	;
-	width: 30%;	
-	height: 100vh;	
-	display: inline-block;
-	position: static;			
-}
-
-#box-2{
-	
+#box-2{	
 	width: 75%;	
 	height: 100vh;
 	display: inline-block;
 	float: right;					
 }
 
-/*versión mobile*/
+#box-2 img {
+    vertical-align: middle;
+    width: 150px;
 
-.row-b{
-	display: block;
-	
 }
 
-#box-4{
-	
-	width: 100%;	
-	height: 100vh;	
-	display: block;				
-}
-
-#box-5{
-	
-	width: 100%;	
-	height: 100vh;
-	display: block;	
-}
-
-
-#box-3{
-	
+#box-3{	
 	width: 100%;
 	height: 40vh;
 	position: static;
 }
 
-@media (max-width: 768px){
+/*@media (max-width: 768px){
 	.row-a{
 		visibility: hidden;
 	}
@@ -133,7 +108,7 @@ nav.navbar.navbar-default{
 	.row-b{
 		visibility: hidden;
 	}
-}
+}*/
 
 /* menu lateral por marion*/
  .cuerpo{
@@ -146,7 +121,10 @@ nav.navbar.navbar-default{
 	margin-left: 3%;
 	margin-right: 3%;
 	border-radius: 3%;
- 
+	width: 30%;	
+	height: 100vh;	
+	display: inline-block;
+	position: static; 
  }
  
 .img-circle{
@@ -188,10 +166,10 @@ nav.navbar.navbar-default{
 	font-weight: bold;
 
 }
+
 li{
 	list-style: none;
 }
-
 
 #red{
 	color: #A2A3A3;
@@ -203,83 +181,104 @@ footer{
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 }
+
 .container-footer{
 	margin-top: 5vh;
 	margin-left: 25vh;
 	margin-bottom: 5vh;
 	margin-right: 25vh;
 }
+
 footer h5, footer p, footer li{
 	color: #929292;
 }
+
 footer li{
 	cursor: pointer;
 }
+
 footer h5{
 	font-weight: 500;
 	font-size: 15px;
 }
+
 footer p{
 	font-size: 13px;
 }
+
 .columna1{
 	width: 20%;
 }
+
 .iconos-sociales{
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
+
 .iconos-sociales li{
 	display: inline-block;
 	font-size: 25px;
 }
+
 .enlaces1, .enlaces2, .enlaces3{
 	list-style: none;
 }
+
 .enlaces1 li, .enlaces2 li, .enlaces3 li{
 	font-size: 13px;
 }
+
 .columna2{
 	margin-left: -15vh;
 	width: 25%;
 }
+
 .columna3{
 	width: 25%;
     margin-top: -10px;
     margin-left: 11vh
 }
+
 .vol, .creative{
 	width: auto;
 }
+
 .letras-vol h5, .letras-creative h5{
 	color: blue;
 	margin-top: 3px;
 	margin-bottom: 3px;
 }
+
 .columna4{
 	width: 25%;
     margin-top: 2px;
     margin-left: 11vh;
 }
+
 .legal{
 	width:70%;
 }
+
 .legal p{
 	font-size: 11px;
 	margin-top: 10vh;
 }
+
 .contador-div{
 	width: 30%;
 }
+
 .pelota{
 	width: auto;
 }
+
 .contador{
 	font-size: 30px;
 	color: black;
 	font-weight: 600;
 }
+
 .pixels{
 	margin-top: -15px;
 }

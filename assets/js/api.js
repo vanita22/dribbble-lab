@@ -5,8 +5,7 @@ $(document).ready(function(){
 					$.each(resp.data.reverse(), function(i, val) {
 						$('#dribbble').prepend(
 						//'<li class="box"><img src="'+val.images.normal+'" /><h2>'+val.title+'</h2><p><a href="'+val.html_url+'">original post &rarr;</a></p></li>'
-						'<li class="box"><img src="'+val.images.normal+'" /><h2>'+val.title+'</h2><p><a href="'+val.html_url+'">original post &rarr;</a></p></li>'
-					
+						'<img src="'+val.images.normal+'"/><h2>'+val.title+'</h2><p><a href="'+val.html_url+'">original post &rarr;</a></p>'					
 					);
 				});
 				}
