@@ -81,12 +81,27 @@
  
  #box-1{
  	background-color: white;
- 	margin-top: 3%;
- 	margin-left: 3%;
- 	margin-right: 3%;
+	margin-top: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+	border-radius: 3%;
  
  }
  
- .img-circle{
- 	margin-top: 5%;
- }
+.img-circle{
+	margin-top: 5%;
+}
+
+#portugal{
+	color: grey;
+}
+
+#name{
+	font-weight: bold;
+}
+
+#hire{
+	background-color: #2BD352;
+	color: white;
+	font-weight: bold;
+}
