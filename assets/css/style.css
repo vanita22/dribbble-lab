@@ -170,7 +170,6 @@ nav.navbar.navbar-default{
 	font-weight: bold;
 }
 
-/* Acá van tus estilos */
 /*Footer*/
 footer{
 	margin: 5vh;
@@ -266,7 +265,26 @@ footer p{
 	margin-left: 0;
 	padding-left: 0;
 	list-style: none;
-
+}
+.columna4-resp{
+	margin-top: 62vh;
+}
+.pixels-resp{
+	width: 102%;
+	margin-top: -15px;
+}
+.iconos-sociales-resp{
+	list-style: none;
+	margin-top: 10px;
+	padding: 0;
+}
+.iconos-sociales-resp li{
+	display: inline-block;
+	font-size: 25px;
+}
+.legal-resp{
+	margin: 0;
+	padding: 0;
 }
 /*fin del Footer*/
 
