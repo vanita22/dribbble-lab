@@ -170,6 +170,7 @@ nav.navbar.navbar-default{
 	font-weight: bold;
 }
 
+/* Acá van tus estilos */
 /*Footer*/
 footer{
 	margin: 5vh;
@@ -178,9 +179,9 @@ footer{
 }
 .container-footer{
 	margin-top: 5vh;
-	margin-left: 25vh;
+	margin-left: 20vh;
 	margin-bottom: 5vh;
-	margin-right: 25vh;
+	margin-right: 20vh;
 }
 footer h5, footer p, footer li{
 	color: #929292;
@@ -233,7 +234,7 @@ footer p{
 .columna4{
 	width: 25%;
     margin-top: 2px;
-    margin-left: 11vh;
+    margin-left: 5vh;
 }
 .legal{
 	width:70%;
@@ -256,8 +257,18 @@ footer p{
 .pixels{
 	margin-top: -15px;
 }
-/*fin del Footer*/
+/*Responsive*/
+.container-footer-resp{
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+.enlaces1-resp, .enlaces3-resp{
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
 
+}
+/*fin del Footer*/
 
 #gris{
 	background-color: #D0D1D1;
