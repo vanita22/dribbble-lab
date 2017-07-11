@@ -1,3 +1,5 @@
+<!--AQUI VA EL MENU LATERAL-->
+css
 /* menu lateral */
 .cuerpo{
 	background-color: #EDEDED;
@@ -58,6 +60,9 @@ li{
 	list-style: none;
 }
 
+#redes{
+	
+}
 #red{
 	color: #A2A3A3;
 }
