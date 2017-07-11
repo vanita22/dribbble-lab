@@ -1,1 +1,16 @@
-/* Acá van tus estilos */
+/* menu lateral */
+.cuerpo{
+	background-color: #EDEDED;
+
+}
+
+#box-1{
+	background-color: white;
+	margin-top: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+
+}
+.img-circle{
+	margin-top: 5%;
+}
