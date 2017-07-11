@@ -3,14 +3,20 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-
 /* menu principal */
+
+#box{	
+	width: 100%;	
+	position: static;
+	display: inline-block;
+}
 
 nav.navbar.navbar-default{
 	width: 100%;
-    height: 56px;
+    height: 60px;
     background: rgba(47,47,47,0.98);
-    z-index: 9996;
+    z-index: 9996; 
+    padding: 10px;  
 }
 
 .lupa{
@@ -26,10 +32,12 @@ nav.navbar.navbar-default{
 
 .barra-negra{
 	width: 100%;
-  height: 56px;
-  background: #333;
-  background: rgba(47,47,47,0.98);
-  z-index: 9996;
+    height: 60px;
+    background: #333;
+    background: rgba(47,47,47,0.98);
+    z-index: 9996;
+    padding: 5px;
+    display: inline-block;
 }
 
 .barra{
@@ -44,10 +52,14 @@ nav.navbar.navbar-default{
 
 .barra-dentro{
 	padding: 4px 15px 30px;
+	display: inline-block;
 }
 
-.logo{
-	color:white;
+#box a img{
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 20px;
 }
 
 .nav>li>a {
@@ -61,13 +73,6 @@ nav.navbar.navbar-default{
 
 /*parte lateral y api*/
 
-#box{	
-	width: 100%;
-	height: 20vh;
-	position: static;
-}
-
-/*versión desktop*/
 .row-a{
 	display: inline-block;
 	width: 100%;
@@ -110,7 +115,6 @@ nav.navbar.navbar-default{
 	}
 }*/
 
-/* menu lateral por marion*/
  .cuerpo{
  	background-color: #EDEDED; 
  }
