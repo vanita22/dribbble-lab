@@ -3,6 +3,12 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+
+/* menu principal */
+.cuerpo{
+	background-color: #EDEDED;
+}
+
 nav.navbar.navbar-default{
 	width: 100%;
     height: 56px;
@@ -174,3 +180,22 @@ nav.navbar.navbar-default{
 	color: #A2A3A3;
 }
 
+#linea{
+	border-bottom: 1px solid grey;
+	border-top: 1px solid #EDEDED;
+}
+
+
+#skills{
+	color: #A2A3A3;
+	font-weight: bold;
+
+}
+li{
+	list-style: none;
+}
+
+
+#red{
+	color: #A2A3A3;
+}
