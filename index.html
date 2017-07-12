@@ -1,210 +1,375 @@
 <!-- Acá va tu HTML -->
+
 <!DOCTYPE html>
+
 <html lang="es_CL">
+
 <head>
-	<title>Titulo</title>
-	<meta charset="utf-8">
+
+    <title>Titulo</title>
+
+    <meta charset="utf-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Descripcion">
-	<meta name="author" content="Author">
-	<!-- Bootstrap Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- Fontawesome -->
-	<script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Descripcion">
+
+    <meta name="author" content="Author">
+
+    <!-- Bootstrap Latest compiled and minified CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+
+    <script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
+
 <body>
-	<!--menu-->
-	<section class="barra-negra">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="box">
-					<!--parte mobile del menú-->
-					<div class="navbar-header hamburguesa">
-     		 			<button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="example-navbar-collapse-1">
-        					<span class="sr-only">Toggle navigation</span>
-        					<span class="icon-bar barra"></span>
-        					<span class="icon-bar barra"></span>
-        					<span class="icon-bar barra"></span>
-      					</button>  
-      					<!--logo-->
-      					<a href="#">
-      						<img src="assets/img/logo-bw-0200c7483844c355752e89efaa4ba89b83c9c591d70254ba10f4b25d901359d0.gif" alt="logo">
-      					</a>    						
-    				</div>
-    				<!--fin parte mobile del menú-->
 
-    				<!--lista del menu-->
-    				<div class="collapse navbar-collapse barra-dentro" id="example-navbar-collapse-1">
-      					<ul class="nav navbar-nav">
-        					<li><a href="#">Shoots</a></li>
-        					<li><a href="#">Designers</a></li>
-        					<li><a href="#">Blog</a></li>
-        					<li><a href="#">Podcast</a></li>
-        					<li><a href="#">Meetups</a></li>
-        					<li><a href="#">Jobs</a></li>
- 		    			</ul>
+    <!--MENU-->
 
- 		    			<!--buscador-->
-      					<div class="navbar-form navbar-right">
-							<p class="hidden-xs">
-    							<a><i class="fa fa-search lupa" aria-hidden="true"></i></a>
-    							<input type="text" class="form-control" placeholder="  Search"/>
-							</p>
-							<p class="visible-xs">
-								<label><i class="fa fa-search lupita" aria-hidden="true"></i></label>
-    							<input type="text" class="form-control" placeholder="  Search"/>
-							</p>								
-      					</div>
-      					<!--fin buscador-->
-    				</div>
-    				<!-- fin lista del menu-->
-				</div>
-			</div>
-		</div>
-	</section>
+    <div class="container">
 
-	<!--Menu lateral y API-->
-	<section class="cuerpo">
-		<div class="container">
-			<div class="row-a">	
-				<div class="row">
-					<!--menú lateral-->
-					<div class="col-md-4 col-lg-4 text-center" id="box-1">
-						<img class="img-circle" src="assets/img/logoeduardo.png" alt="">
-						<h2 id="name">Eduardo Santos</h2>
-						<h5 id="portugal">Portugal</h5>
-						<h5 id="name">User Interface Designer</h5>
+        <div class="row">
 
-						<button class="btn btn-default" type="button" id="hire"> <i class="fa fa-envelope-o" aria-hidden="true"></i> Hire Me</button>
-						<button class="btn btn-default" type="button" id="gris">Follow</button>
-						<button class="btn btn-default" type="button" id="gris2" ><i class="fa fa-cog" aria-hidden="true"></i><i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+            <div class="col-xs-sm-md-lg-12" id="box">
 
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left" id="box-1" id="linea">
-							<h5 id="skills">SKILLS</h5>
-							<button class="btn btn-default" type="button" id="blanco">Web</button>
-							<button class="btn btn-default" type="button" id="blanco">ui</button>
-							<button class="btn btn-default" type="button" id="blanco">mobile</button>
-							<button class="btn btn-default" type="button" id="blanco">app</button>
-						</div>
+                <!--AQUI VA EL NABVAR-->
 
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left" id="box-1" id="redes">
+                <nav class="navbar navbar-default">
 
-				   			<h5 id="skills">ELSEWHERE</h5>
-								<li><i class="fa fa-twitter" aria-hidden="true" id="red"></i> Twitter</li>
-								<li><i class="fa fa-facebook-square" aria-hidden="true" id="red"></i> Facebook</li>
-								<li><i class="fa fa-instagram" aria-hidden="true" id="red"></i> Instagram</li>
-								<li><i class="fa fa-github" aria-hidden="true" id="red"></i> GitHub</li>
-								<li><i class="fa fa-linkedin-square" aria-hidden="true" id="red"></i> LinkedIn</li>
-								<li><i class="fa fa-vimeo-square" aria-hidden="true" id="red"></i> Vimeo</li>
-						</div>
-					</div>			
-					<!--Fin menú lateral-->
+                    <div class="container-fluid">
 
-					<!--API-->
-					<div class="col-md-lg-8" id="box-2">
-						<!--AQUI VA LA API-->
-						<ul id="dribbble"></ul>
-					</div>
-					<!-- Fin API-->
-				</div>
-			</div>
-		</div>
-	</section>
+                        <!-- Brand and toggle get grouped for better mobile display -->
 
-	<!--pie de página-->
-	<footer>
-		<div class="container-fluid">
-			<div class="row">
-				
-				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs columna1">
- 					<img src="assets/img/logo-footer-hd_chico.png" class="logo-chico">
- 					<h5>Show and tell for designers</h5>
- 					<p>What are you working for? Dribbling is a community of designers sharing screenshots of their work, process, and projects</p>
-					
-					<ul class="iconos-sociales pull-left">
- 						<li><i class="fa fa-dribbble" aria-hidden="true"></i></li>
- 						<li><i class="fa fa-twitter" aria-hidden="true"></i></li>
- 						<li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
- 						<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
- 						<li><i class="fa fa-globe" aria-hidden="true"></i></li>
- 					</ul>
- 				</div>
-				
-				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs columna2 pull-left">
- 					<div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
- 						<ul class="enlaces1">
- 							<li>About</li>
-							<h5 id="name">User Interface Designer</h5>
- 						</ul>
- 					</div>
- 				</div>
-				
-				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs columna3">
- 					<h5>Jobs for Designers</h5>
+                        <div class="navbar-header hamburguesa">
 
- 					<div class="row">						
-						<div class="col-lg-6 col-md-6 hidden-sm hidden-xs vol">
- 							<img src="assets/img/volusion.png">
- 						</div>
-						
-						<div class="col-lg-6 col-md-6 hidden-sm hidden-xs align-top letras-vol">
- 							<h5>Volusion</h5>
- 							<p>Senior Mobile UI Designer</p>
- 						</div>
- 					</div>
+                            <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 
- 					<div class="row">						
-						<div class="col-lg-6 col-md-6 hidden-sm hidden-xs creative">
- 							<img src="assets/img/creative.png">
- 						</div>
-						
-						<div class="col-lg-6 col-md-6 hidden-sm hidden-xs align-top letras-creative">
- 							<h5>Creative Market</h5>
- 							<p>Product Designer</p>
- 						</div>
- 					</div>
- 				</div>
-				
-				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs columna4">
- 					<div class="row">
- 						<div class="col-lg-6 col-md-6 hidden-sm hidden-xs">	
- 							<img src="assets/img/flow.png">
-							 <h5 id="name">User Interface Designer</h5>
-						</div>
- 					</div>
- 				</div>
+                                <span class="sr-only">Toggle navigation</span>
 
- 			<div class="row">
-				
-				<div class="col-lg-6 col-md-6 hidden-sm hidden-xs legal">
-					<p>We're Tiny along with Designer News, Crew, Metalab, Flow, Pixel Union, we work remotely, and more. 						 ©2017 Soa Sita. All rigths reserved</p>
- 				</div>
-				
-				<div class="col-lg-6 col-md-6 hidden-sm hidden-xs contador-div">
- 					<div class="row">						
-						<div class="col-lg-6 col-md-6 hidden-sm hidden-xs pelota">
- 							<img src="assets/img/dribbbled.png">
- 						</div>
-						
-						<div class="col-lg-6 col-md-6 hidden-sm hidden-xs numero">
- 							<p class="contador">777,999,888,666</p>
-							<p>pixels dribbled</p>
-							<p class="pixels">pixels dribbled</p>
- 						</div>
- 					</div>
- 				</div>
+                                <span class="icon-bar barra"></span>
 
-			</div>
-		</div>
+                                <span class="icon-bar barra"></span>
 
-	</footer>
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<!-- Bootstrap Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
+                                <span class="icon-bar barra"></span>
+
+                            </button>
+
+                            <a href="#">
+
+                                <img src="assets/img/logo-nav.png" alt="logo">
+
+                            </a>
+
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+
+                        <div class="collapse navbar-collapse barra-dentro" id="bs-example-navbar-collapse-1">
+
+                            <ul class="nav navbar-nav">
+
+                                <li><a href="#">Shoots</a></li>
+
+                                <li><a href="#">Designers</a></li>
+
+                                <li><a href="#">Blog</a></li>
+
+                                <li><a href="#">Podcast</a></li>
+
+                                <li><a href="#">Meetups</a></li>
+
+                                <li><a href="#">Jobs</a></li>
+
+                            </ul>
+
+                            <form class="navbar-form navbar-right">
+
+                                <p class="hidden-xs">
+
+                                    <a><i class="fa fa-search lupa" aria-hidden="true"></i></a>
+
+                                    <input type="text" class="form-control" placeholder="    Search" />
+
+                                </p>
+
+                                <p class="visible-xs">
+
+                                    <label><i class="fa fa-search lupita" aria-hidden="true"></i></label>
+
+                                    <input type="text" class="form-control" placeholder="    Search" />
+
+                                </p>
+
+                                <!-- 
+
+                                <div class="input-group input-group-sm">
+
+                                <span class="input-group-addon" id="sizing-addon3"><i class="fa fa-search" aria-hidden="true"></i></span>
+
+                                <input type="text" class="form-control" placeholder="Search" aria-describedby="sizing-addon3">
+
+                                </div>-->
+
+                            </form>
+
+                        </div><!-- /.navbar-collapse -->
+
+                    </div><!-- /.container-fluid -->
+
+                </nav>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--LATERAL Y API-->
+
+ <section class="contenido">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center" id="box-1">
+                   <img class="img-circle" src="assets/img/logoeduardo.png" alt="">
+                            <h2 id="name">Eduardo Santos</h2>
+
+                            <h5 id="portugal">Portugal</h5>
+
+                            <h5 id="name">User Interface Designer</h5>
+
+                            <button class="btn btn-default" type="button" id="hire"> <i class="fa fa-envelope-o" aria-hidden="true"></i> Hire Me</button>
+
+                            <button class="btn btn-default" type="button" id="gris">Follow</button>
+
+                            <button class="btn btn-default" type="button" id="gris2" ><i class="fa fa-cog" aria-hidden="true"></i><i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left" id="box-1" id="linea">
+
+                                <h5 id="skills">SKILLS</h5>
+
+                                <button class="btn btn-default" type="button" id="blanco">Web</button>
+
+                                <button class="btn btn-default" type="button" id="blanco">ui</button>
+
+                                <button class="btn btn-default" type="button" id="blanco">mobile</button>
+
+                                <button class="btn btn-default" type="button" id="blanco">app</button>
+
+                            </div>
+
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left" id="box-1" id="redes">
+
+                                <h5 id="skills">ELSEWHERE</h5>
+
+                                    <li><i class="fa fa-twitter" aria-hidden="true" id="red"></i> Twitter</li>
+
+                                    <li><i class="fa fa-facebook-square" aria-hidden="true" id="red"></i> Facebook</li>
+
+                                    <li><i class="fa fa-instagram" aria-hidden="true" id="red"></i> Instagram</li>
+
+                                    <li><i class="fa fa-github" aria-hidden="true" id="red"></i> GitHub</li>
+
+                                    <li><i class="fa fa-linkedin-square" aria-hidden="true" id="red"></i> LinkedIn</li>
+
+                                    <li><i class="fa fa-vimeo-square" aria-hidden="true" id="red"></i> Vimeo</li>
+
+                            </div>
+             </div>
+             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 text-right seccionfotos">
+                 <div class="api">
+                    <!--AQUI VA LA API-->
+                     <ul id="dribbble"></ul>
+                </div>
+             </div>
+             
+         </div>
+     </div>
+ </section>
+
+    <!--PIE DE PÁGINA-->
+
+    <footer>
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                
+
+                <div class="col-lg-3 col-md-3 hidden-sm hidden-xs columna1">
+
+                    <img src="assets/img/logo-footer-hd_chico.png" class="logo-chico">
+
+                    <h5>Show and tell for designers</h5>
+
+                    <p>What are you working for? Dribbling is a community of designers sharing screenshots of their work, process, and projects</p>
+
+                    
+
+                    <ul class="iconos-sociales pull-left">
+
+                        <li><i class="fa fa-dribbble" aria-hidden="true"></i></li>
+
+                        <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+
+                        <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+
+                        <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+
+                        <li><i class="fa fa-globe" aria-hidden="true"></i></li>
+
+                    </ul>
+
+                </div>
+
+                
+
+                <div class="col-lg-3 col-md-3 hidden-sm hidden-xs columna2 pull-left">
+
+                    <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+
+                        <ul class="enlaces1">
+
+                            <li>About</li>
+
+                            <h5 id="name">User Interface Designer</h5>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                
+
+                <div class="col-lg-3 col-md-3 hidden-sm hidden-xs columna3">
+
+                    <h5>Jobs for Designers</h5>
+
+                    <div class="row">                       
+
+                        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs vol">
+
+                            <img src="assets/img/volusion.png">
+
+                        </div>
+
+                        
+
+                        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs align-top letras-vol">
+
+                            <h5>Volusion</h5>
+
+                            <p>Senior Mobile UI Designer</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">                       
+
+                        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs creative">
+
+                            <img src="assets/img/creative.png">
+
+                        </div>
+
+                        
+
+                        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs align-top letras-creative">
+
+                            <h5>Creative Market</h5>
+
+                            <p>Product Designer</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+
+                <div class="col-lg-3 col-md-3 hidden-sm hidden-xs columna4">
+
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs"> 
+
+                            <img src="assets/img/flow.png">
+
+                             <h5 id="name">User Interface Designer</h5>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            <div class="row">
+
+                
+
+                <div class="col-lg-6 col-md-6 hidden-sm hidden-xs legal">
+
+                    <p>We're Tiny along with Designer News, Crew, Metalab, Flow, Pixel Union, we work remotely, and more.                          ©2017 Soa Sita. All rigths reserved</p>
+
+                </div>
+
+                
+
+                <div class="col-lg-6 col-md-6 hidden-sm hidden-xs contador-div">
+
+                    <div class="row">                       
+
+                        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs pelota">
+
+                            <img src="assets/img/dribbbled.png">
+
+                        </div>
+
+                        
+
+                        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs numero">
+
+                            <p class="contador">777,999,888,666</p>
+
+                            <p>pixels dribbled</p>
+
+                            <p class="pixels">pixels dribbled</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap Latest compiled and minified JavaScript -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
 </body>
+
 </html>
