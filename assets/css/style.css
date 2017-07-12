@@ -74,337 +74,191 @@ nav.navbar.navbar-default{
 /*parte lateral y api*/
 
 #box-2{ 
-
-    width: 75%; 
-
+    width: 75%;
     height: 100vh;
-
     display: inline-block;
-
-    float: right;                   
-
+    float: right;
 }
 
 #box-2 img {
-
     vertical-align: middle;
-
     width: 150px;
-
 }
 
 #box-3{ 
-
     width: 100%;
-
     height: 40vh;
-
     position: static;
-
 }
 
-/*@media (max-width: 768px){
-
-    .row-a{
-
-        visibility: hidden;
-
-    }
-
-    .row-b{
-
-        visibility: visible;
-
-    }
-
-}
-
-@media (min-width: 769px){
-
-    .row-a{
-
-        visibility: visible;
-
-    }
-
-    .row-b{
-
-        visibility: hidden;
-
-    }
-
-}*/
-
-/* menu lateral por marion*/
+/* menu lateral*/
 
  .cuerpo{
-
     background-color: #EDEDED; 
-
- }
-
- 
+ } 
 
  #box-1{
-
     background-color: white;
-
     margin-left: 3%;
-
     border-radius: 3%;
-
     width: 30%; 
-
     height: 100vh;  
-
     display: inline-block;
-
     position: static; 
-
- }
-
- 
+ } 
 
 .img-circle{
-
     margin-top: 5%;
-
 }
 
 #portugal{
-
     color: grey;
-
 }
 
 #name{
-
     font-weight: bold;
-
 }
 
 #hire{
-
     background-color: #2BD352;
-
     color: white;
-
     font-weight: bold;
-
 }
 
 #gris{
-
     background-color: #D0D1D1;
-
 }
 
 #gris2{
-
     background-color: #D0D1D1;
-
     color: #A2A3A3;
-
 }
 
 #linea{
-
     border-bottom: 1px solid grey;
-
     border-top: 1px solid #EDEDED;
-
 }
 
 #skills{
-
     color: #A2A3A3;
-
     font-weight: bold;
-
 }
 
 li{
-
     list-style: none;
-
 }
 
 #red{
-
     color: #A2A3A3;
-
 }
 
 /*Footer*/
 
 footer{
-
     margin: 5vh;
-
     padding: 0;
-
     font-family: 'Roboto', sans-serif;
-
 }
 
 .container-footer{
-
     margin-top: 5vh;
-
     margin-left: 25vh;
-
     margin-bottom: 5vh;
-
     margin-right: 25vh;
-
 }
 
 footer h5, footer p, footer li{
-
     color: #929292;
-
 }
 
 footer li{
-
     cursor: pointer;
-
 }
 
 footer h5{
-
     font-weight: 500;
-
     font-size: 15px;
-
 }
 
 footer p{
-
     font-size: 13px;
-
 }
 
 .columna1{
-
     width: 20%;
-
 }
 
 .iconos-sociales{
-
     list-style: none;
-
     margin: 0;
-
     padding: 0;
-
 }
 
 .iconos-sociales li{
-
     display: inline-block;
-
     font-size: 25px;
-
 }
 
 .enlaces1, .enlaces2, .enlaces3{
-
     list-style: none;
-
 }
 
 .enlaces1 li, .enlaces2 li, .enlaces3 li{
-
     font-size: 13px;
-
 }
 
 .columna2{
-
     margin-left: -15vh;
-
     width: 25%;
-
 }
 
 .columna3{
-
     width: 25%;
-
     margin-top: -10px;
-
-    margin-left: 11vh
-
+    margin-left: 11vh;
 }
 
 .vol, .creative{
-
     width: auto;
-
 }
 
 .letras-vol h5, .letras-creative h5{
-
     color: blue;
-
     margin-top: 3px;
-
     margin-bottom: 3px;
-
 }
 
 .columna4{
-
     width: 25%;
-
     margin-top: 2px;
-
     margin-left: 11vh;
-
 }
 
 .legal{
-
     width:70%;
-
 }
 
 .legal p{
-
     font-size: 11px;
-
     margin-top: 10vh;
-
 }
 
 .contador-div{
-
     width: 30%;
-
 }
 
 .pelota{
-
     width: auto;
-
 }
 
 .contador{
-
     font-size: 30px;
-
     color: black;
-
     font-weight: 600;
-
 }
 
 .pixels{
-
     margin-top: -15px;
-
 }
 
 /*fin del Footer*/
