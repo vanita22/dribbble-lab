@@ -5,9 +5,12 @@ $(document).ready(function(){
 
 				if (resp.data.length > 0) {							
 					$.each(resp.data.reverse(), function(i, val) {
+						//console.log(resp)
 						$('#dribbble').prepend(
 						//'<li class="box"><img src="'+val.images.normal+'" /><h2>'+val.title+'</h2><p><a href="'+val.html_url+'">original post &rarr;</a></p></li>'
-						'<li class="box" id="img-overlay"><img src="'+val.images.normal+'" /><h2>'+val.title+'</h2><p><a href="'+val.html_url+'">original post &rarr;</a></p></li>'
+						'<li class="box" id="img-overlay"><img src="'+val.images.normal+'" /><h2>'+val.title+'</h2><p><a href="'+val.html_url+'">original post &rarr;</a></p></li>'+
+						//se genera overlay con el texto pero el estilo no queda bien definido
+						//$('#img-overlay').prepend('<div class="overlay">'+'<div class="text">'+val.description+'</div>'+'</div>')
 						);
 						
 					});
@@ -15,6 +18,7 @@ $(document).ready(function(){
 				else {
 				$('#dribbble').append('<li>No shots.</li>');
 			}
+			
 		});	
 		  							    
 	});
