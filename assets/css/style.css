@@ -70,6 +70,25 @@ nav.navbar.navbar-default{
     text-decoration: none;
     color: #999;
 }
+/*seccion shoots*/
+
+.linea{
+	display: inline-block;
+	padding: 4px;
+}
+
+.arriba{
+	position: relative;
+	right: -173px;
+	top:-34px;
+}
+
+.abajo{
+	position:relative;
+	right:-161px;
+	top:-23px;
+}
+/*fin de seccion shoots*/
 
 /*parte lateral y api*/
 
