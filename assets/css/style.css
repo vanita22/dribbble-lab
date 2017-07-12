@@ -113,15 +113,15 @@ nav.navbar.navbar-default{
 
 /* menu lateral*/
 
- .contenido{
+.contenido{
     background-color: #EDEDED;     
- } 
+} 
 
 .container{
     flex-direction: column;
 }
 
- #box-1{
+#box-1{
     background-color: white;
     margin-left: 3%;
     border-radius: 3%;
@@ -129,7 +129,30 @@ nav.navbar.navbar-default{
     height: 100vh;  
     display: inline-block;
     position: static; 
- } 
+} 
+
+@media (max-width: 425px){
+    #box-1{    
+        width: 90%;
+        height: 120vh;
+        margin-top: 10px;     
+    } 
+    li.box {    
+        float: left;
+        margin-left: -40px;
+    }
+    img.cover-card {
+        width: 200px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 800px){
+    #box-1{    
+        width: 30%;
+        height: 150vh;
+        margin-top: 5px;     
+    } 
+}
 
 .img-circle{
     margin-top: 5%;
